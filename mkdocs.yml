@@ -1,0 +1,33 @@
+site_name: Home Server Documentation
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Switch to dark mode
+      primary: deep orange
+      accent: deep purple 
+    - scheme: slate 
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode    
+      primary: black
+      accent: deep orange
+
+plugins:
+  - search
+
+copyright: |
+  &copy; 2024 <a href="https://github.com/N28M"  target="_blank" rel="noopener">Nikhil Marathe</a>
