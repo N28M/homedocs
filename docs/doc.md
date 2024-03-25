@@ -8,6 +8,7 @@
         Shared Folders
         Services -> SMB
         Services -> Compose
+        tailscale
 
 ## Portainer
     Installing Docker on OMV
@@ -34,4 +35,15 @@
                 bazarr
                 bazarr4k
 
+## Home Assistant
+    Installing HAOS on Raspberry Pi
+        Home Assistant Setup
+            Addons
+                Cloudflared
+                MariaDB (required for Nginx Proxy manager)
+                Nginx Proxy Manager
+                Tailscale
+                Installing HACS
+                    Tuya Local
+                    Pulling Local Keys from Tuya
 
