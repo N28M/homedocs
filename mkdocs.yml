@@ -26,7 +26,22 @@ theme:
         name: Switch to light mode    
       primary: black
       accent: deep orange
-      
+
+nav:
+  - Home: index.md
+  - Open Media Vault:
+    - ./omv/omv.md
+  - Portainer:
+    - ./stacks/stacks.md
+    - ./stacks/bind9.md
+    - ./stacks/cups.md
+    - ./stacks/gluetun.md
+    - ./stacks/plex.md
+    - ./stacks/plex-meta-manager.md
+    - ./stacks/watchtower.md
+  - Home Assistant:
+    - ./ha/homeassistant.md
+
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true

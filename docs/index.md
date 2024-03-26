@@ -1,17 +1,42 @@
-# Welcome to MkDocs
+# Documentation
+A Personal NAS Setup and Management Reference
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+This is my personal collection of notes and instructions for setting up, configuring, and getting the most out of my Open Media Vault (OMV) NAS. I've made it publicly accessible for convenience so I can always reference it, even if my home systems are offline. If you find it helpful, that's awesome, but it's primarily tailored to my own setup.
 
-## Commands
+## Getting Started
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+* **Prerequisites** (Hardware, networking basics, etc.)
+* **OMV Setup and Installation** 
 
-## Project layout
+## Core Configuration
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+* **Adding Disks**
+* **MergerFS**
+* **File Systems**
+* **Shared Folders**
+* **Services**
+    * **SMB**
+    * **Compose**
+    * **Tailscale**
+
+## Docker and Portainer
+
+* **Installing Docker on OMV**
+* **Installing Portainer on OMV**
+* **Portainer Setup**
+* **[Stacks](./stacks/stacks.md)** (Include a list of your specific stacks)
+
+## Next-Level Applications
+
+* **Gluetun (VPN Tunneling)** 
+    * Setting up Gluetun and routing specific services
+* **Home Assistant on Raspberry Pi**
+    * HAOS Installation
+    * Essential Addons (Cloudflared, MariaDB, Nginx, Tailscale, HACS)
+    * Tuya Local Integration
+
+## Additional Resources
+
+* **[Official Open Media Vault Documentation](https://openmediavault.readthedocs.io/en/6.x/)**
+* **[MkDocs Material Website](https://squidfunk.github.io/mkdocs-material/)**
+
