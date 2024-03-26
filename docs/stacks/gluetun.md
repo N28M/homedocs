@@ -1,8 +1,3 @@
-test paragraph
-asdasdsa
-asdasdas
-asdasd
-
 ``` yaml
 version: "3"
 services:
